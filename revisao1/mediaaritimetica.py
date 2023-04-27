@@ -6,7 +6,7 @@ while confirm =='s':
     num2= int(input("Digite um outro numero: "))
 
     media = num1 + num2 / 2
-
+    lista.append(media)
     if media >= 7:
         print("Aprovado com a nota ",media)
     elif media >=4:
@@ -14,3 +14,5 @@ while confirm =='s':
     else:
         print("Reprovado com a nota: ",media )
     confirm = input('quer continuar? S/N').lower()[0]
+
+print(lista)
