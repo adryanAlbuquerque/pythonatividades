@@ -9,10 +9,10 @@ calc2 = (nulos / eleitores) * 100
 calc3 = (validos / eleitores) * 100
 
 
-if brancos + nulos + validos / 100 > 100:
+if calc1 + calc2 + calc3 > 100:
     print("Inválido! houve fraude")
 
-elif brancos + nulos + validos / 100 < 100:
+elif calc1 + calc2 + calc3 < 100:
     print("Inválido! houve fraude")
 
 
