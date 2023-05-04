@@ -12,6 +12,10 @@ calc3 = (validos / eleitores) * 100
 if brancos + nulos + validos / 100 > 100:
     print("Inválido! houve fraude")
 
+elif brancos + nulos + validos / 100 < 100:
+    print("Inválido! houve fraude")
+
+
 else:
     print(calc1, "Porcento dos votos branco")
     print(calc2, "Porcento dos votos nulo")
