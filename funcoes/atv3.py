@@ -1,4 +1,4 @@
-def escada(n1):
-    for x in range(1,6):
+def escada(n):
+    for x in range(1,n+1):
         print(x * str(x))
 escada(5)
